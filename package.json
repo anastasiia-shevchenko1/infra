@@ -12,7 +12,8 @@
     "cdk": "cdk",
     "build:web": "cd ../shop-angular-cloudfront && npm run build",
     "cdk:synth": "cdk synth",
-    "cdk:deploy": "cdk deploy"
+    "cdk:deploy": "cdk deploy",
+    "build-deploy": "npm run build:web && npm run cdk:deploy"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
